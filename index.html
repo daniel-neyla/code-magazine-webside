@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <!-- Main header -->
-      <header id="main-header">
+      <header class="main-header clearfix">
         <h1>📘 The Code Magazine</h1>
 
         <nav>
@@ -29,6 +29,7 @@
             alt="Portrait of Author"
             width="50px"
             height="50px"
+            class="author-img"
           />
           <p id="author">
             Posted by
@@ -45,6 +46,7 @@
             height="200px"
             id="post-img"
           />
+          <button id="like">❤️ Like</button>
         </header>
 
         <p>
@@ -107,49 +109,48 @@
           <li>To have fun 😃</li>
         </ul>
         <p>Hopefully you learned something new here. See you next time!</p>
-        <aside>
-          <h4>Related posts</h4>
-          <ul id="related-list">
-            <li>
-              <div>
-                <img
-                  src="img/related-1.jpg"
-                  alt="Picture of programmer"
-                  width="75px"
-                  height="75px"
-                />
-                <a href="#">How to learn Web Development</a>
-              </div>
-              <p class="related-author">By Jonas Schmedtmann</p>
-            </li>
-            <li>
-              <div>
-                <img
-                  src="img/related-2.jpg"
-                  alt="Picture of a lightning strike"
-                  width="75px"
-                  height="75px"
-                />
-                <a href="#">The Unknown Powers of CSS</a>
-              </div>
-              <p class="related-author">By Jim Dillon</p>
-            </li>
-            <li>
-              <div>
-                <img
-                  src="img/related-2.jpg"
-                  alt="Picture of code"
-                  width="75px"
-                  height="75px"
-                />
-                <a href="#">Why JavaScript is Awesome</a>
-              </div>
-              <p class="related-author">By Matilda</p>
-            </li>
-          </ul>
-          <button id="like">❤️ Like</button>
-        </aside>
       </article>
+      <aside>
+        <h4>Related posts</h4>
+        <ul id="related-list">
+          <li>
+            <div>
+              <img
+                src="img/related-1.jpg"
+                alt="Picture of programmer"
+                width="75px"
+                height="75px"
+              />
+              <a href="#">How to learn Web Development</a>
+            </div>
+            <p class="related-author">By Jonas Schmedtmann</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="img/related-2.jpg"
+                alt="Picture of a lightning strike"
+                width="75px"
+                height="75px"
+              />
+              <a href="#">The Unknown Powers of CSS</a>
+            </div>
+            <p class="related-author">By Jim Dillon</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="img/related-2.jpg"
+                alt="Picture of code"
+                width="75px"
+                height="75px"
+              />
+              <a href="#">Why JavaScript is Awesome</a>
+            </div>
+            <p class="related-author">By Matilda</p>
+          </li>
+        </ul>
+      </aside>
       <footer>
         <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
       </footer>
